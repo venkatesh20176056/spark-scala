@@ -1,17 +1,17 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/venkateshakula/sparkpractice/target/scala-2.11/sparkpractice_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/venkateshakula/sparkscala/target/scala-2.11/sparkpractice_2.11-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Departments$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Departments$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Departments$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Departments.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Departments.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Departments.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Employees$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Employees$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Employees$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Employees.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Employees.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Employees.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Job.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Job.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Job.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Job$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkpractice/target/scala-2.11/classes/Job$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venkateshakula/sparkscala/target/scala-2.11/classes/Job$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

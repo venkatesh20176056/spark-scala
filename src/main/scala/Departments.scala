@@ -7,7 +7,7 @@ object Departments {
     val departmentSchema = getDepartmentSchema();
     val df = sqlContext.read.format("csv")
       .option("header", "true").schema(departmentSchema)
-      .load("/home/venkateshakula/Desktop/Data/Departments.csv")
+      .load("Departments.csv")
     df;
   }
 

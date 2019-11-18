@@ -7,7 +7,7 @@ object Employees {
     val employeeSchema = getEmployeeSchema();
     val df = sqlContext.read.format("csv")
       .option("header", "true").schema(employeeSchema)
-      .load("/home/venkateshakula/Desktop/Data/Employees.csv");
+      .load("Employees.csv");
     df;
   }
 
