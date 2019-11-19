@@ -1,7 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
 
-
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
 
@@ -31,7 +30,7 @@ object Job {
     df3.select(df2.col("Id").alias("DeptID"), df2.col("Name").alias("DeptName"),
       df1.col("Id").alias("ManagerId"),df1.col("Name")).show();
 
-    df1.filter(df1("Name") === "Arnav").show();
+    df1.filter(df1("Salary") >= 20000).show();
     sparkContext.stop();
   }
 }
