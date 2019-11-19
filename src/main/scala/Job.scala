@@ -16,7 +16,6 @@ object Job {
     val sparkContext = new SparkContext(sparkConf);
     val sqlContext = new SQLContext(sparkContext);
     
-
     val df1 = Employees.employeesDataFrame(sqlContext);
     val df2 = Departments.departmentDataFrame(sqlContext);
 
@@ -28,7 +27,6 @@ object Job {
     val df4 = df3.select(df2.col("Id").alias("DeptID"), df2.col("Name").alias("DeptName"),
       df1.col("Id").alias("ManagerId"),df1.col("Name"));
     df4.write.parquet("1.parquet");
-
 
     df3.select(df2.col("Id").alias("DeptID"), df2.col("Name").alias("DeptName"),
       df1.col("Id").alias("ManagerId"),df1.col("Name")).show();
