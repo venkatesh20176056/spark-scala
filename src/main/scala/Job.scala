@@ -26,11 +26,12 @@ object Job {
     val df3 = df2.join(df1, df1.col("Id") === df2.col("ManagerID"));
     val df4 = df3.select(df2.col("Id").alias("DeptID"), df2.col("Name").alias("DeptName"),
       df1.col("Id").alias("ManagerId"),df1.col("Name"));
-    df4.write.parquet("1.parquet");
+    // df4.write.parquet("1.parquet");
 
     df3.select(df2.col("Id").alias("DeptID"), df2.col("Name").alias("DeptName"),
       df1.col("Id").alias("ManagerId"),df1.col("Name")).show();
 
+    df1.filter(df1("Name") === "Arnav").show();
     sparkContext.stop();
   }
 }
